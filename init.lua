@@ -138,6 +138,4 @@ minetest.register_alias("decorative_beds:bed_bottom", "decorative_beds:bed_botto
 minetest.register_alias("decorative_beds:bed_top", "decorative_beds:bed_top_blue")
 minetest.register_alias("decorative_beds:bed", "decorative_beds:bed_bottom_blue")
 
-if minetest.setting_get("log_mods") then
-	minetest.log("action", "beds loaded")
-end
+print('[decorative_beds] loaded.')
